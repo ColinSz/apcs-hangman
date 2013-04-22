@@ -107,7 +107,6 @@ public class Hangman extends BasicGame {
                 String restOfWordMissing = word;
                 int spot = 0;
                 while(spot < restOfWord.length())
-
                     restOfWord = word.substring(spot, word.length());
                     restOfWordMissing = word.substring(0, spot);
                     System.out.println(spot);
